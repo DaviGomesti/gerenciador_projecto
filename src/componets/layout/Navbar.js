@@ -28,6 +28,7 @@ function Navbar() {
                             <Link to="/projects">Projetos</Link>
                         </li>
 
+                        
                     </ul>
                 </Container>
             </nav>
