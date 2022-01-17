@@ -6,13 +6,13 @@
         "name": "Planejamento"
       },
       "name": "CDP",
-      "budget": "100",
+      "budget": "10000",
       "cost": 0,
       "services": [],
       "id": 1
     },
     {
-      "name": "Davi Gomes ",
+      "name": "App model ",
       "budget": "5000",
       "category": {
         "id": "2",
@@ -23,26 +23,15 @@
       "id": 2
     },
     {
-      "name": "projeto 3",
-      "budget": "1500",
-      "category": {
-        "id": "3",
-        "name": "Design"
-      },
-      "cost": 0,
-      "services": [],
-      "id": 3
-    },
-    {
-      "name": "DG",
-      "budget": "3000",
+      "name": "CDP",
+      "budget": "60000",
       "category": {
         "id": "2",
         "name": "Desenvolvimento"
       },
       "cost": 0,
       "services": [],
-      "id": 4
+      "id": 3
     }
   ],
   "categories": [

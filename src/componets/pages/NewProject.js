@@ -1,4 +1,4 @@
-import {useHistory} from 'react-router'
+import {useHistory} from 'react-router-dom'
 
 
 import ProjectForm from '../project/ProjectForm'
@@ -16,7 +16,7 @@ function NewProject() {
         fetch("http://localhost:5000/projects", {
             method: 'POST',
             headers: {
-                "Content-Type": "application/json",
+                'Content-Type': 'application/json',
             },
             body: JSON.stringify(project),
         })
