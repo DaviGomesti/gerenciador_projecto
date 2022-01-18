@@ -8,6 +8,7 @@ import Projects  from './componets/pages/Projects'
 import Container from './componets/layout/Container'
 import Navbar from './componets/layout/Navbar'
 import Footer  from './componets/layout/Footer'
+import Project from './componets/pages/Project'
 
 
 
@@ -39,6 +40,10 @@ function App() {
 
         <Route  path="/newproject">
           <NewProject />
+        </Route>
+
+        <Route  path="/Project/:id">
+          <Project/>
         </Route>
         
         </Container>
