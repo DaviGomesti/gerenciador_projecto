@@ -1,13 +1,11 @@
-.loading_container {
+.loader_container {
     width: 100%;
     height: 100%;
-    display:flex;
-    justify-content:center;
+    display: flex;
+    justify-content: center;
     align-items: center;
-
-}
-
-.loading{
+  }
+  
+  .loader {
     width: 50px;
-
-}
+  }
