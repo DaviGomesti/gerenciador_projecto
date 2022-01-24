@@ -34,15 +34,22 @@
       "id": 5
     },
     {
-      "name": "CDP",
-      "budget": "3000",
+      "name": "app_4",
+      "budget": "30000",
       "category": {
-        "id": "1",
-        "name": "Infra"
+        "id": "2",
+        "name": "Desenvolvimento"
       },
-      "cost": 0,
-      "services": [],
-      "id": 6
+      "cost": 5000,
+      "services": [
+        {
+          "name": "Manutenção",
+          "cost": "5000",
+          "description": "#2",
+          "id": "bc63a1c2-b1d8-47ca-8456-10b05d082de6"
+        }
+      ],
+      "id": 7
     }
   ],
   "categories": [
